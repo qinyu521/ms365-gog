@@ -1,0 +1,24 @@
+name: Build Skill Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Build Skill Package
+        run: |
+          mkdir -p dist
+          zip -r dist/ms365-gog.skill . -x "*.git*" "*.github/*" "*.md" "screenshots/*" "dist/*"
+          
+      - name: Upload Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/ms365-gog.skill
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
