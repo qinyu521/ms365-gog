@@ -3,7 +3,7 @@
 > 让 OpenClaw 拥有与 Google Workspace 集成（gog）同等体验的 **Microsoft 365 原生操作能力**，无需配置 Azure 开发者账号，一行命令登录即用。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://github.com/your-username/ms365-gog)
+[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://github.com/qinyu521/ms365-gog)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ---
@@ -38,14 +38,14 @@
 
 **方式一：下载 .skill 文件安装（推荐）**
 
-1. 前往 [Releases 页面](https://github.com/your-username/ms365-gog/releases/latest)
+1. 前往 [Releases 页面](https://github.com/qinyu521/ms365-gog/releases/latest)
 2. 下载 `ms365-gog.skill`
 3. 打开 OpenClaw → 设置 → Skills → 安装本地 Skill → 选择下载的文件
 
 **方式二：从源码安装**
 
 ```bash
-git clone https://github.com/your-username/ms365-gog.git
+git clone https://github.com/qinyu521/ms365-gog.git
 cd ms365-gog
 
 # 打包为 .skill 文件
@@ -180,9 +180,9 @@ ms365-gog/
 
 欢迎任何形式的贡献！
 
-- 🐛 [报告 Bug](https://github.com/your-username/ms365-gog/issues/new?template=bug_report.md)
-- 💡 [提交新功能建议](https://github.com/your-username/ms365-gog/issues/new?template=feature_request.md)
-- 📖 [改善文档](https://github.com/your-username/ms365-gog/pulls)
+- 🐛 [报告 Bug](https://github.com/qinyu521/ms365-gog/issues/new?template=bug_report.md)
+- 💡 [提交新功能建议](https://github.com/qinyu521/ms365-gog/issues/new?template=feature_request.md)
+- 📖 [改善文档](https://github.com/qinyu521/ms365-gog/pulls)
 - 🌐 [添加语言翻译](docs/CONTRIBUTING.md#翻译)
 
 请先阅读 [贡献指南](CONTRIBUTING.md)。
