@@ -204,4 +204,10 @@ ms365-gog/
 
 [MIT License](LICENSE) © 2025 ms365-gog contributors
 
-本项目与 Microsoft 无关联，Microsoft 365、Outlook、Teams、OneDrive、SharePoint 均为 Microsoft Corporation 的商标。
+## 免责声明
+
+本项目为开源社区项目，**与 Microsoft Corporation 无关联、无赞助、无认可**。
+
+Microsoft 365®、Outlook®、Teams®、OneDrive®、SharePoint®、Microsoft Graph® 均为 [Microsoft Corporation](https://www.microsoft.com) 在美国及其他国家的注册商标或商标。
+
+使用本工具需遵守 [Microsoft 服务协议](https://www.microsoft.com/servicesagreement) 和 [Microsoft Graph API 使用条款](https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use)。
