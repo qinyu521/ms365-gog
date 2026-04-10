@@ -93,20 +93,24 @@ MS_GRAPH = "https://graph.microsoft.com/v1.0"
 
 根据用户意图，读取对应的参考文档：
 
-| 用户需求关键词                              | 参考文档                          |
-|----------------------------------------|---------------------------------|
-| 邮件、Outlook、发邮件、收件箱、回复邮件       | `references/mail.md`            |
-| 日历、会议、约时间、提醒、Teams会议链接        | `references/calendar.md`        |
-| 文件、OneDrive、上传、下载、共享、云盘         | `references/onedrive.md`        |
-| Teams、消息、频道、群组通知、卡片            | `references/teams.md`           |
-| Word、Excel、文档编辑、表格、工作表          | `references/office-docs.md`     |
-| 任务、待办、To Do、Planner、看板、deadline  | `references/tasks.md`           |
-| 实时通知、监听、订阅、新邮件提醒、自动触发      | `references/webhook.md`         |
-| 多账号、共享邮箱、SSO、企业版、审计、批量API   | `references/enterprise.md`      |
-| 世纪互联、中国区、chinacloudapi、.cn账号    | `references/china-cloud.md`     |
-| SharePoint、站点、文档库、SP列表、团队网站    | `references/sharepoint.md`      |
+| 用户需求关键词                              | 参考文档                               |
+|----------------------------------------|------------------------------------|
+| 邮件、Outlook、发邮件、收件箱、回复邮件       | `references/mail.md`               |
+| 邮件规则、收件箱规则、自动分类、自动转发        | `references/mail-rules.md`         |
+| 日历、会议、约时间、提醒、Teams会议链接        | `references/calendar.md`           |
+| 文件、OneDrive、上传、下载、共享、云盘         | `references/onedrive.md`           |
+| Teams、消息、频道、群组通知、卡片            | `references/teams.md`              |
+| Word、Excel、文档编辑、表格、工作表          | `references/office-docs.md`        |
+| 任务、待办、To Do、Planner、看板、deadline  | `references/tasks.md`              |
+| 甘特图、Gantt、进度图、时间线、任务时间轴       | `references/planner-gantt.md`      |
+| 实时通知、监听、订阅、新邮件提醒、自动触发      | `references/webhook.md`            |
+| 多账号、共享邮箱、SSO、企业版、审计、批量API   | `references/enterprise.md`         |
+| 世纪互联、中国区、chinacloudapi、.cn账号    | `references/china-cloud.md`        |
+| SharePoint、站点、文档库、SP列表、团队网站    | `references/sharepoint.md`         |
+| SharePoint页面、新闻、公告、Intranet、Wiki  | `references/sharepoint-pages.md`   |
+| Power Automate、Flow、触发流、审批流、工作流  | `references/power-automate.md`     |
 
-> **如果一个请求涉及多个模块，按顺序读取多个参考文档。**
+> **多模块请求**（如"发邮件+建日历+通知Teams"）按顺序读取多个参考文档，依次执行。
 
 ---
 
